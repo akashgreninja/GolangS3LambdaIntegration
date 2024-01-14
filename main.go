@@ -28,6 +28,7 @@ func main() {
 
 	//adding events
 	//https://github.com/aws/aws-sdk-go-v2/blob/main/service/s3/api_op_PutBucketNotificationConfiguration.go
+	//the below code wont wonk for V2 of the golang api
 
 	// notificationConfig := &s3.PutBucketNotificationConfigurationInput{
 	// 	Bucket: aws.String("greninja"),
